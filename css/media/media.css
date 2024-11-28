@@ -1,0 +1,44 @@
+@media (max-width: 991px) {
+  .bg-nav {
+    margin-left: 0;
+    margin-top: 0;
+    box-shadow: 0 0 10px rgb(0, 0, 0); 
+  }
+
+  .navigation {
+    border-radius: 5px;
+  }
+
+  .nav-link:hover {
+    font-size: 24px; /* Reduce hover size for smaller screens */
+    color: tomato;
+  }
+
+  .nav-items {
+    margin-left: 0; /* Center or align items better */
+  }
+
+  .user {
+    width: 50px; /* Reduce user image size */
+    height: 50px;
+  }
+
+  .form-control {
+    width: 100%; /* Make the search input take full width */
+    margin-bottom: 10px; /* Add spacing between elements */
+  }
+
+  .btn {
+    width: 100%; /* Make the button stack neatly with the input */
+  }
+
+  .navbar-nav {
+    flex-direction: column; /* Stack navigation links */
+    text-align: center;
+  }
+
+  .dropdown-menu {
+    text-align: left; /* Ensure dropdowns look consistent */
+    margin: 0 auto;
+  }
+}
